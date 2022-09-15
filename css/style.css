@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif; }
+
+.intro {
+  display: flex;
+  background-color: #da9ad4;
+  height: 40px;
+  justify-content: center;
+  font-size: 40px;
+  height: 70px; }
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  background-color: #81f9e5;
+  height: 40px;
+  justify-content: end; }
+
+.menu a:hover {
+  color: firebrick; }
+
+.menu li:first-child {
+  background-color: azure; }
+
+.menu a {
+  text-decoration: none; }
+
+.menu__item {
+  display: inline-block; }
+
+.main {
+  padding: 50px; }
+
+.whatsapp {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 50px;
+  margin-right: 20px; }
+
+header {
+  color: blueviolet;
+  min-height: 10vh; }
+
+.Contenedor {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "categorias inicio promociones" "preguntas  inicio contacto";
+  gap: 15px;
+  animation-name: tienda;
+  animation-duration: 10s;
+  animation-fill-mode: forwards; }
+
+.inicio {
+  grid-area: inicio;
+  background-color: #edd1f0;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column; }
+
+.inicio__foto {
+  width: 600px;
+  height: 400px; }
+
+@keyframes tienda {
+  0% {
+    background-color: darkorchid; }
+  25% {
+    background-color: #e674ad; }
+  75% {
+    background-color: #eac3d6; }
+  100% {
+    background-color: whitesmoke; } }
+
+.categorias {
+  grid-area: categorias;
+  background-color: rgba(105, 196, 205, 0.801);
+  font-size: 18px;
+  display: flex;
+  flex-direction: column; }
+
+.categorias__foto {
+  width: 370px;
+  height: 280px; }
+
+.promociones {
+  grid-area: promociones;
+  background-color: rgba(105, 196, 205, 0.801);
+  font-size: 18px;
+  display: flex;
+  flex-direction: column; }
+
+.promociones__foto {
+  width: 370px;
+  height: 280px; }
+
+.preguntas {
+  grid-area: preguntas;
+  background-color: rgba(105, 196, 205, 0.801);
+  font-size: 18px;
+  display: flex;
+  flex-direction: column; }
+
+.preguntas__foto {
+  width: 370px;
+  height: 280px; }
+
+.Contacto {
+  grid-area: contacto;
+  background-color: rgba(105, 196, 205, 0.801);
+  font-size: 18px;
+  display: flex;
+  flex-direction: column; }
+
+.Contacto__foto {
+  width: 370px;
+  height: 280px; }
+
+.Contenedor > div {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.categoriaspages {
+  display: flex;
+  background-color: #edd1f0;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.inferiores {
+  margin: 30px 30px 30px 30px; }
+
+.inferiores__foto {
+  width: 600px;
+  height: 500px; }
+
+.superiores {
+  margin: 30px 30px 30px 30px; }
+
+.superiores__foto {
+  width: 600px;
+  height: 500px; }
+
+.enteros {
+  margin: 30px 30px 30px 30px; }
+
+.enteros__foto {
+  width: 600px;
+  height: 500px; }
+
+.cremas {
+  margin: 30px 30px 30px 30px; }
+
+.cremas__foto {
+  width: 600px;
+  height: 500px; }

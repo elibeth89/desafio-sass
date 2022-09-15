@@ -1,0 +1,14 @@
+{
+  "name": "desafio-sass",
+  "version": "1.0.0",
+  "description": "desafio 1 sass",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css -w"
+  },
+  "author": "Elibeth Torres",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

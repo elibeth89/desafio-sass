@@ -1,0 +1,46 @@
+
+.categoriaspages {
+    display: flex;
+    background-color: rgb(237, 209, 240);
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+.inferiores {
+   margin: 30px 30px 30px 30px;
+   
+}
+
+&__foto {
+    width: 600px;
+    height: 500px;
+}
+
+.superiores {
+    margin: 30px 30px 30px 30px;
+   
+}
+
+&__foto {
+    width: 600px;
+    height: 500px;
+}
+
+.enteros {
+    margin: 30px 30px 30px 30px;
+}
+&__foto {
+    width: 600px;
+    height: 500px;
+}
+.cremas {
+    margin: 30px 30px 30px 30px;
+}
+
+&__foto {
+    width: 600px;
+    height: 500px;
+}
+
