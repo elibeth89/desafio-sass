@@ -9,7 +9,8 @@
 }
 
 .inferiores {
-   margin: 30px 30px 30px 30px;
+    @extend .margen;
+//    margin: 30px 30px 30px 30px;
    
 }
 
@@ -19,7 +20,8 @@
 }
 
 .superiores {
-    margin: 30px 30px 30px 30px;
+    @extend .margen
+    // margin: 30px 30px 30px 30px;
    
 }
 
@@ -29,14 +31,16 @@
 }
 
 .enteros {
-    margin: 30px 30px 30px 30px;
+    @extend .margen;
+    // margin: 30px 30px 30px 30px;
 }
 &__foto {
     width: 600px;
     height: 500px;
 }
 .cremas {
-    margin: 30px 30px 30px 30px;
+    @extend .margen;
+    // margin: 30px 30px 30px 30px;
 }
 
 &__foto {

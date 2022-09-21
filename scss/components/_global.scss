@@ -38,8 +38,7 @@ color: firebrick;
 
 .menu__item {
     display:inline-block;
-    //  margin-right: 10px;
-    //   margin left: 10px;
+   
             
 }
 
@@ -59,8 +58,26 @@ color: firebrick;
 }
 
 
-footer{
-    
-    padding: 20px;
-   
+
+// Extends
+
+.margen {
+    margin: 30px 30px 30px 30px;
 }
+
+.paginaseninicio {
+    background-color: rgba(105, 196, 205, 0.801);
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+// mixins 
+@mixin practica ($anchoinicio, $altoinicio) {
+
+    width: $anchoinicio;
+    height: $altoinicio;
+}
+
+
+
