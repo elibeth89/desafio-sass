@@ -1,9 +1,15 @@
 
-.pie {
+.pie__mp {
+    width: 10px;
+    height: 8px;
+}
+.footer {
     
     // padding: 20px;
-    background-color: aqua;
-    
+    background-color: red;
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: wrap; 
    
 }
 

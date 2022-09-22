@@ -1,15 +1,13 @@
+@import "variables";
 
+@import "global";
 
-@import "./components/variables";
+@import "header";
 
-@import "./components/global";
+@import "index";
 
-@import "./components/header";
+@import "categorias";
 
-@import "./components/footer";
+@import "footer";
 
-@import "./pages/index";
-
-@import "./pages/categorias";
-
-@import "./components/mediasqueries";
+@import "mediasqueries";

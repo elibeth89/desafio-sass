@@ -22,14 +22,14 @@
     font-size: 30px;
     display: flex;
     flex-direction: column;
-
+    &__foto {
+        @include practica(600px, 400px);
+        // width: 600px;
+        // height: 400px;
+    }
 }
 
-&__foto {
-    @include practica(600px, 400px);
-    // width: 600px;
-    // height: 400px;
-}
+
 
 @keyframes  tienda {
     0% {
@@ -58,14 +58,15 @@
     // font-size: 18px;
     // display: flex;
     // flex-direction: column;
+    &__foto{
+        @include practica(370px, 280px);
+        // width: 370px;
+        // height: 280px;
+    }
 
 }
 
-.&__foto{
-    @include practica(370px, 280px);
-    // width: 370px;
-    // height: 280px;
-}
+
 
 .promociones{
     grid-area: promociones;
@@ -74,13 +75,14 @@
     // font-size: 18px;
     // display: flex;
     // flex-direction: column;
+    &__foto {
+        @include practica(370px, 280px);
+        // width: 370px;
+        // height: 280px;
+    }
 }
 
-&__foto {
-    @include practica(370px, 280px);
-    // width: 370px;
-    // height: 280px;
-}
+
 
 .preguntas{
     grid-area: preguntas;
@@ -89,13 +91,14 @@
     // font-size: 18px;
     // display: flex;
     // flex-direction: column;
+    &__foto {
+        @include practica(370px, 280px);
+        // width: 370px;
+        // height: 280px;
+    }
 }
 
-&__foto {
-    @include practica(370px, 280px);
-    // width: 370px;
-    // height: 280px;
-}
+
 
 .Contacto{
     grid-area: contacto;
@@ -104,14 +107,16 @@
     // font-size: 18px;
     // display: flex;
     // flex-direction: column;
+    &__foto {
+        @include practica(370px, 280px);
+        // width: 370px;
+        // height: 280px;
+    
+    }
+
 }
 
-&__foto {
-    @include practica(370px, 280px);
-    // width: 370px;
-    // height: 280px;
 
-}
 
 .Contenedor > div {
     display: flex;

@@ -10,41 +10,50 @@
 
 .inferiores {
     @extend .margen;
-//    margin: 30px 30px 30px 30px;
-   
-}
-
-&__foto {
+    &__foto {
     width: 600px;
     height: 500px;
+    }   
 }
+
 
 .superiores {
-    @extend .margen
-    // margin: 30px 30px 30px 30px;
-   
+    @extend .margen;
+    
+    &__foto {
+        width: 600px;
+        height: 500px;
+    }
 }
 
-&__foto {
-    width: 600px;
-    height: 500px;
-}
+// &__foto {
+//     width: 600px;
+//     height: 500px;
+// }
 
 .enteros {
     @extend .margen;
+    &__foto {
+        width: 600px;
+        height: 500px;
+    }
     // margin: 30px 30px 30px 30px;
 }
-&__foto {
-    width: 600px;
-    height: 500px;
-}
+// &__foto {
+//     width: 600px;
+//     height: 500px;
+// }
 .cremas {
     @extend .margen;
+    &__foto {
+        width: 600px;
+        height: 500px;
+    }
     // margin: 30px 30px 30px 30px;
 }
 
-&__foto {
-    width: 600px;
-    height: 500px;
-}
+// &__foto {
+//     width: 600px;
+//     height: 500px;
+// }
 
